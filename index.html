@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="display">
+         <input type="text" placeholder="0" id="ddis" disabled>
+        </div>
+        <div class="btn">
+            <button id="btn1" onclick="cleanValue()">CL</button>
+            <button id="btn1" onclick="back()">DEL</button>
+            <button id="btn1" onclick="percentage1('%')">%  </button>
+            <button id="btn1" onclick="addValue('/')">/</button>
+            <button id="btn" onclick="addValue(7)">7</button>
+            <button id="btn" onclick="addValue(8)">8</button>
+            <button id="btn" onclick="addValue(9)">9</button>
+            <button id="btn1" onclick="addValue('*')">*</button>
+            <button id="btn" onclick="addValue(4)">4</button>
+            <button id="btn" onclick="addValue(5)">5</button>
+            <button id="btn" onclick="addValue(6)">6</button>
+            <button id="btn1" onclick="addValue('-')">-</button>
+            <button id="btn" onclick="addValue(1)">1</button>
+            <button id="btn" onclick="addValue(2)">2</button>
+            <button id="btn" onclick="addValue(3)">3</button>
+            <button id="btn1" onclick="addValue('+')">+</button>
+            <button id="btn" onclick="addValue('.')">.</button>
+            <button id="btn" onclick="addValue(0)">0</button>
+            <button id="btn" onclick="addValue('00')">00</button>
+            <button id="btn1" onclick="celValue('=')">=</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
